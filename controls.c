@@ -1,4 +1,4 @@
-#include <stdio.h>
+a#include <stdio.h>
 #include "controls.h"
 #include "calculations.h"
 #include <math.h>
@@ -19,9 +19,9 @@ struct Function functions[NFUNCS] =
 	{"sin", 1, 1, .singleOperand = sin},
 	{"cos", 1, 1, .singleOperand = cos},
 	{"tan", 1, 1, .singleOperand = tan},
-	{"cot", 1, 1, .singleOperand = cot}, // cot fonksiyonunu yaz.
-	{"sec", 1, 1, .singleOperand = sec}, // sec fonksiyonunu yaz.
-	{"cosec", 1, 1, .singleOperand = cosec},  // cosec fonksiyonunu yaz.
+	{"cot", 1, 1, .singleOperand = cot},
+	{"sec", 1, 1, .singleOperand = sec},
+	{"cosec", 1, 1, .singleOperand = cosec}, 
 	{"floor", 1, 1, .singleOperand = floor},
 	{"exp", 1, 1, .singleOperand = exp},
 	{"log", 1, 1, .singleOperand = log10},
