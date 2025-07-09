@@ -1,0 +1,11 @@
+double sum(double, double);
+double sub(double, double);
+double div(double, double);
+double mul(double, double);
+double mod(double, double);
+double power(double, double);
+double fact(double);
+double cot(double);
+double sec(double);
+double cosec(double);
+double fib(double);
